@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRN889PBL5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XRN889PBL5');
+  </script>
+</head>
+<body>
+  <div class="person">
+    <div class="topnav" id="myTopnav">
+      <a href="index.html"class="logo">Nini.</a>
+      <a href="index.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="facts.html">Fun Facts</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="resume-details">
+      <img src="images/contact.png" alt="contact">
+        <ul class="resume-list" id="contact">
+            <li>
+                <h3>Phone</h3>
+                <a href="Tel: 555 225651"> 555 22 56 51</a>
+            </li>
+            <li>
+                <h3>Email</h3>
+                <a href="mailto:nino.kvinikadze.1@btu.edu.ge">nino.kvinikadze.1@btu.edu.ge</a>
+            </li>
+            <li>
+                <h3>Linkedin</h3>
+                <a href="https://www.linkedin.com/in/ninikokvinikadze/" target="_blank">Nino Kvinikadze</a>
+            </li>
+          </ul>
+    </div>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
